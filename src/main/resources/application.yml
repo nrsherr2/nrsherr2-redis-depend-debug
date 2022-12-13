@@ -1,0 +1,10 @@
+spring:
+  session:
+    timeout: 86400
+    redis:
+      namespace: mymfgadmindev:session
+  data:
+    redis:
+      host: localhost
+      password:
+      port: 6379
